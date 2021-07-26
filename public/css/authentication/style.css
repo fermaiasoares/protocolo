@@ -1,0 +1,140 @@
+.content-wrapper {
+  display: flex;
+  flex: 1;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.side-background {
+  display: flex;
+  flex: 1;
+
+  background-color: #312E38;
+  background-image: url('/images/background-login.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(1px) brightness(50%) drop-shadow(0 0 10px black);
+}
+
+.side-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 340px;
+  flex: 1;
+  background-color: #232129;
+  border: 2px solid #232129;
+  border-radius: 10px;
+
+  padding: 16px;
+
+  margin-bottom: 8px;
+}
+
+.input:hover {
+  transition: border-color 1s;
+  border-color: #FF9000;
+}
+
+.input:hover svg {
+  color: #FF9000;
+}
+
+.input:hover input {
+  color: #fff;
+}
+
+.input label {
+  display: none;
+}
+
+.input svg {
+  width: 16px;
+  margin-right: 16px;
+  color: #666360;
+}
+
+.input input {
+  flex: 1;
+  border: 0;
+  color: #FF9000;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.input input::placeholder {
+  color: #666360;
+}
+
+.input .input-content {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9000;
+
+  border: 0;
+  border-radius: 10px;
+  width: 340px;
+  height: 56px;
+
+  color: #312E38;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.button:hover {
+  filter: brightness(50%);
+  transition: filter 0.5s;
+}
+
+.button svg {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.mgt-24 {
+  margin-top: 24px !important;
+}
+
+.content {
+  text-align: center;
+}
+
+.content img {
+  margin-bottom: 40px;
+}
+
+.title-login {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FF9000;
+  margin-bottom: 18px;
+}
+
+.forgot-password {
+  display: block;
+
+  text-decoration: none;
+  color: #FF9000;
+
+  margin-top: 24px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
